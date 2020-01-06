@@ -59,7 +59,7 @@ const blacklistSet = [
 });
 
 
-/*
+// This is still needed to load the legacy xml file AWS provides in the EMR console
 const LASTRESORT = 'k20d21508277536715';
 const DEFAULT_PROXY_SETTING = {
   //id: Number.MAX_SAFE_INTEGER, // Not here so we dont save it to disk as an object property but instead as a key
@@ -73,7 +73,7 @@ const DEFAULT_PROXY_SETTING = {
   whitePatterns: [PATTERN_ALL_WHITE],
   blackPatterns: []
 }
-*/
+
 
 
 // ----------------- Utils ---------------------------------
